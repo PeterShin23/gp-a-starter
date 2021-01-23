@@ -10,6 +10,7 @@ numberOfGuessesLeft= 5
 
 #Populates the hidden word string with correct number of "-"
 hiddenWord= "["
+# The error was here
 for i in range(len(secretWord)):
     hiddenWord+="-"
     if (i==len(secretWord)-1):
