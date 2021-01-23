@@ -5,7 +5,7 @@
 # allowed to crash on non-integer inputs.
 
 num = int(input("Enter an integer: "))
-if (num < 1 or num > 3999) :
+if (num < 1 or num > 3999) : # ngl took me a while for no reason
     print("Input must be between 1 and 3999")
 else:
     thousands = ["", "M", "MM", "MMM"]
