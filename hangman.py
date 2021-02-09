@@ -4,7 +4,7 @@
 # Input a word, then guess the letters!
 
 import random
-
+#adding this line because TA told me I was merging incorrectly
 secretWord= input("Enter a word: ").lower()
 numberOfGuessesLeft= 5
 
